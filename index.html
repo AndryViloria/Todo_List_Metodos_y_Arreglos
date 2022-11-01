@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Open+Sans&family=Permanent+Marker&family=Roboto:wght@300&family=Rubik+Moonrocks&family=Splash&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2666f7d089.js" crossorigin="anonymous"></script>
+    <title>Desafio 5. Todo List</title>
+</head>
+
+<body>
+    <main>
+        <div id="titulo">
+            <h1>Todo List</h1>
+        </div>
+
+        <div id="input_btn">
+            <input id="tarea" type="text" placeholder="Ingresar nueva tarea" />
+            <button id="btn">Agregar</button>
+        </div>
+
+        <div id="conteo">
+            <p>Total: <span id="total"></span></p>
+            <p>Realizadas: <span id="realizadas"></span></p>
+        </div>
+
+        <table id="tareas">
+            <thead>
+                <tr>
+                    <td>ID - </td>
+                    <td>Tarea</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Esta es la tarea 1</td>
+                    <td><input class="checkbox" type="checkbox"></td>
+                    <td><span><i class="fa-solid fa-trash-can"></i></span></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

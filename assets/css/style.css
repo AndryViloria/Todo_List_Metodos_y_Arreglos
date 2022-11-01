@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background: lightgray;
+    box-sizing: border-box;
+}
+
+main {
+    position: relative;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 2rem;
+    height: 75vh;
+    width: 85%;
+    border-radius: 8px;
+    box-shadow: 1px 1px 7px 2px #006400;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#titulo {
+    margin-bottom: 20px;
+    border: 2px solid darkgrey;
+    border-top: 1px;
+    border-left: none;
+    border-right: none;
+}
+
+#tarea {
+    padding: 10px;
+    border-radius: 4px;
+    width: 80%;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#tarea::placeholder {
+    font-size: 16px;
+    font-style: italic;
+}
+
+#tareas {
+    margin-top: 35px;
+    font-size: 18px;
+}
+
+#tareas thead {
+    font-weight: bold;
+}
+
+#tareas tbody {
+    margin-left: 10px;
+}
+
+#btn {
+    background: #006400;
+    color: #ffffff;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px none;
+    width: 100px;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+#conteo {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+#conteo p {
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+input {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.fa-solid {
+    color: #006400;
+    margin-left: 15px;
+    cursor: pointer;
+}
